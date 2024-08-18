@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+// jwtToken :=300000 //volorous operator only accept inside the method
+// var jwtToken =300000 //valid
+// var jwtToken int =300000 //valid
+
+const LoginToken string = "lskdfgoisdglsdkf" //public
+
+
 func main() {
 	fmt.Println("variables")
 
@@ -31,7 +38,17 @@ func main() {
 
 	// implicit type
 
-	var website = "davichicode.in"
-	fmt.Println(website)
+	var website = "davinchicode.in"
+	fmt.Println(website) 
+
+	// no var style
+
+	// numberOfUsers := 300000
+	numberOfUsers := 300000.0
+	fmt.Println(numberOfUsers)
+
+	fmt.Println(LoginToken)
+	fmt.Printf("Variale is of type: %T \n",LoginToken)
+
 
 }
