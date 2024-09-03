@@ -42,7 +42,7 @@ func proAdder(values ...int) int {
 		total += value
 	}
 
-	return total,"Hi pro result fuction"
+	return total
 }
 
 
